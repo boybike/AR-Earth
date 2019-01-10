@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA140C56209DB7B000C1E419 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA140C55209DB7B000C1E419 /* VirtualObject.swift */; };
+		FA9A9D0420660C1500D243AA /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A9D0220660C1500D243AA /* FocusSquare.swift */; };
+		FA9A9D0520660C1500D243AA /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A9D0320660C1500D243AA /* FocusSquareSegment.swift */; };
+		FA9A9D09208B2E2700D243AA /* VirtualObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A9D08208B2E2700D243AA /* VirtualObjectARView.swift */; };
+		FAC0DABD201C81FD00436039 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC0DABC201C81FD00436039 /* info.png */; };
+		FAC0DABF201C820A00436039 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC0DABE201C820A00436039 /* face.png */; };
+		FAC87AC02025A63B00531C1C /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC87ABF2025A63B00531C1C /* tap.png */; };
+		FADA283A2025B87700BFC3D6 /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = FADA28392025B87700BFC3D6 /* off.png */; };
+		FADA283C2025B97000BFC3D6 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = FADA283B2025B96F00BFC3D6 /* on.png */; };
+		FADF2EF51FF33FD400FD54FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF2EF41FF33FD400FD54FB /* AppDelegate.swift */; };
+		FADF2EF71FF33FD400FD54FB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FADF2EF61FF33FD400FD54FB /* art.scnassets */; };
+		FADF2EF91FF33FD400FD54FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF2EF81FF33FD400FD54FB /* ViewController.swift */; };
+		FADF2EFC1FF33FD400FD54FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF2EFA1FF33FD400FD54FB /* Main.storyboard */; };
+		FADF2EFE1FF33FD400FD54FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADF2EFD1FF33FD400FD54FB /* Assets.xcassets */; };
+		FADF2F011FF33FD400FD54FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF2EFF1FF33FD400FD54FB /* LaunchScreen.storyboard */; };
+		FAED692B2046A6C600125EE2 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED692A2046A6C600125EE2 /* InfoViewController.swift */; };
+		FAED692F2046AD4B00125EE2 /* 成员.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED692C2046AD4B00125EE2 /* 成员.png */; };
+		FAED69302046AD4B00125EE2 /* 老师.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED692D2046AD4B00125EE2 /* 老师.png */; };
+		FAED69312046AD4B00125EE2 /* 认证.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED692E2046AD4B00125EE2 /* 认证.png */; };
+		FAED69332047D2AE00125EE2 /* replace.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED69322047D2AE00125EE2 /* replace.png */; };
+		FAED693B204A89FB00125EE2 /* 中山陵.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED6934204A89FB00125EE2 /* 中山陵.png */; };
+		FAED693C204A89FB00125EE2 /* 音乐台.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED6935204A89FB00125EE2 /* 音乐台.png */; };
+		FAED693D204A89FB00125EE2 /* 白马公园.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED6936204A89FB00125EE2 /* 白马公园.png */; };
+		FAED693E204A89FB00125EE2 /* 灵谷寺.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED6937204A89FB00125EE2 /* 灵谷寺.png */; };
+		FAED693F204A89FB00125EE2 /* 美龄宫.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED6938204A89FB00125EE2 /* 美龄宫.png */; };
+		FAED6940204A89FB00125EE2 /* 山顶公园.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED6939204A89FB00125EE2 /* 山顶公园.png */; };
+		FAED6941204A89FB00125EE2 /* 明孝陵.png in Resources */ = {isa = PBXBuildFile; fileRef = FAED693A204A89FB00125EE2 /* 明孝陵.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA140C55209DB7B000C1E419 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		FA9A9D0220660C1500D243AA /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		FA9A9D0320660C1500D243AA /* FocusSquareSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
+		FA9A9D08208B2E2700D243AA /* VirtualObjectARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObjectARView.swift; sourceTree = "<group>"; };
+		FAC0DABC201C81FD00436039 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		FAC0DABE201C820A00436039 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		FAC87ABF2025A63B00531C1C /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap.png; sourceTree = "<group>"; };
+		FADA28392025B87700BFC3D6 /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+		FADA283B2025B96F00BFC3D6 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+		FADF2EF11FF33FD400FD54FB /* AR Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Earth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADF2EF41FF33FD400FD54FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADF2EF61FF33FD400FD54FB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		FADF2EF81FF33FD400FD54FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADF2EFB1FF33FD400FD54FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADF2EFD1FF33FD400FD54FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADF2F001FF33FD400FD54FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADF2F021FF33FD400FD54FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAED692A2046A6C600125EE2 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		FAED692C2046AD4B00125EE2 /* 成员.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "成员.png"; sourceTree = "<group>"; };
+		FAED692D2046AD4B00125EE2 /* 老师.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老师.png"; sourceTree = "<group>"; };
+		FAED692E2046AD4B00125EE2 /* 认证.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "认证.png"; sourceTree = "<group>"; };
+		FAED69322047D2AE00125EE2 /* replace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = replace.png; sourceTree = "<group>"; };
+		FAED6934204A89FB00125EE2 /* 中山陵.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中山陵.png"; sourceTree = "<group>"; };
+		FAED6935204A89FB00125EE2 /* 音乐台.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音乐台.png"; sourceTree = "<group>"; };
+		FAED6936204A89FB00125EE2 /* 白马公园.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白马公园.png"; sourceTree = "<group>"; };
+		FAED6937204A89FB00125EE2 /* 灵谷寺.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灵谷寺.png"; sourceTree = "<group>"; };
+		FAED6938204A89FB00125EE2 /* 美龄宫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美龄宫.png"; sourceTree = "<group>"; };
+		FAED6939204A89FB00125EE2 /* 山顶公园.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "山顶公园.png"; sourceTree = "<group>"; };
+		FAED693A204A89FB00125EE2 /* 明孝陵.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "明孝陵.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADF2EEE1FF33FD400FD54FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADF2EE81FF33FD400FD54FB = {
+			isa = PBXGroup;
+			children = (
+				FADF2EF31FF33FD400FD54FB /* AR Earth */,
+				FADF2EF21FF33FD400FD54FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADF2EF21FF33FD400FD54FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADF2EF11FF33FD400FD54FB /* AR Earth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADF2EF31FF33FD400FD54FB /* AR Earth */ = {
+			isa = PBXGroup;
+			children = (
+				FAED6937204A89FB00125EE2 /* 灵谷寺.png */,
+				FAED6938204A89FB00125EE2 /* 美龄宫.png */,
+				FAED693A204A89FB00125EE2 /* 明孝陵.png */,
+				FAED6939204A89FB00125EE2 /* 山顶公园.png */,
+				FAED6935204A89FB00125EE2 /* 音乐台.png */,
+				FAED6934204A89FB00125EE2 /* 中山陵.png */,
+				FAED69322047D2AE00125EE2 /* replace.png */,
+				FAED692C2046AD4B00125EE2 /* 成员.png */,
+				FAED692D2046AD4B00125EE2 /* 老师.png */,
+				FAED692E2046AD4B00125EE2 /* 认证.png */,
+				FADA283B2025B96F00BFC3D6 /* on.png */,
+				FAED6936204A89FB00125EE2 /* 白马公园.png */,
+				FADA28392025B87700BFC3D6 /* off.png */,
+				FAC87ABF2025A63B00531C1C /* tap.png */,
+				FAC0DABE201C820A00436039 /* face.png */,
+				FAC0DABC201C81FD00436039 /* info.png */,
+				FADF2EF41FF33FD400FD54FB /* AppDelegate.swift */,
+				FADF2EF61FF33FD400FD54FB /* art.scnassets */,
+				FADF2EF81FF33FD400FD54FB /* ViewController.swift */,
+				FA140C55209DB7B000C1E419 /* VirtualObject.swift */,
+				FA9A9D08208B2E2700D243AA /* VirtualObjectARView.swift */,
+				FAED692A2046A6C600125EE2 /* InfoViewController.swift */,
+				FA9A9D0220660C1500D243AA /* FocusSquare.swift */,
+				FA9A9D0320660C1500D243AA /* FocusSquareSegment.swift */,
+				FADF2EFA1FF33FD400FD54FB /* Main.storyboard */,
+				FADF2EFD1FF33FD400FD54FB /* Assets.xcassets */,
+				FADF2EFF1FF33FD400FD54FB /* LaunchScreen.storyboard */,
+				FADF2F021FF33FD400FD54FB /* Info.plist */,
+			);
+			path = "AR Earth";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADF2EF01FF33FD400FD54FB /* AR Earth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADF2F051FF33FD400FD54FB /* Build configuration list for PBXNativeTarget "AR Earth" */;
+			buildPhases = (
+				FADF2EED1FF33FD400FD54FB /* Sources */,
+				FADF2EEE1FF33FD400FD54FB /* Frameworks */,
+				FADF2EEF1FF33FD400FD54FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR Earth";
+			productName = "AR Earth";
+			productReference = FADF2EF11FF33FD400FD54FB /* AR Earth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADF2EE91FF33FD400FD54FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FADF2EF01FF33FD400FD54FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FADF2EEC1FF33FD400FD54FB /* Build configuration list for PBXProject "AR Earth" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADF2EE81FF33FD400FD54FB;
+			productRefGroup = FADF2EF21FF33FD400FD54FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADF2EF01FF33FD400FD54FB /* AR Earth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADF2EEF1FF33FD400FD54FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAED693C204A89FB00125EE2 /* 音乐台.png in Resources */,
+				FADF2EF71FF33FD400FD54FB /* art.scnassets in Resources */,
+				FAC0DABD201C81FD00436039 /* info.png in Resources */,
+				FAED69312046AD4B00125EE2 /* 认证.png in Resources */,
+				FAED69332047D2AE00125EE2 /* replace.png in Resources */,
+				FADA283C2025B97000BFC3D6 /* on.png in Resources */,
+				FAED6941204A89FB00125EE2 /* 明孝陵.png in Resources */,
+				FAED69302046AD4B00125EE2 /* 老师.png in Resources */,
+				FADF2F011FF33FD400FD54FB /* LaunchScreen.storyboard in Resources */,
+				FADF2EFE1FF33FD400FD54FB /* Assets.xcassets in Resources */,
+				FAED693E204A89FB00125EE2 /* 灵谷寺.png in Resources */,
+				FAED692F2046AD4B00125EE2 /* 成员.png in Resources */,
+				FAC87AC02025A63B00531C1C /* tap.png in Resources */,
+				FADA283A2025B87700BFC3D6 /* off.png in Resources */,
+				FAED693B204A89FB00125EE2 /* 中山陵.png in Resources */,
+				FAED693D204A89FB00125EE2 /* 白马公园.png in Resources */,
+				FAED693F204A89FB00125EE2 /* 美龄宫.png in Resources */,
+				FAC0DABF201C820A00436039 /* face.png in Resources */,
+				FADF2EFC1FF33FD400FD54FB /* Main.storyboard in Resources */,
+				FAED6940204A89FB00125EE2 /* 山顶公园.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADF2EED1FF33FD400FD54FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9A9D09208B2E2700D243AA /* VirtualObjectARView.swift in Sources */,
+				FA9A9D0520660C1500D243AA /* FocusSquareSegment.swift in Sources */,
+				FADF2EF91FF33FD400FD54FB /* ViewController.swift in Sources */,
+				FA9A9D0420660C1500D243AA /* FocusSquare.swift in Sources */,
+				FAED692B2046A6C600125EE2 /* InfoViewController.swift in Sources */,
+				FA140C56209DB7B000C1E419 /* VirtualObject.swift in Sources */,
+				FADF2EF51FF33FD400FD54FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FADF2EFA1FF33FD400FD54FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADF2EFB1FF33FD400FD54FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADF2EFF1FF33FD400FD54FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADF2F001FF33FD400FD54FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADF2F031FF33FD400FD54FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADF2F041FF33FD400FD54FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADF2F061FF33FD400FD54FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFP58H2H4K;
+				INFOPLIST_FILE = "AR Earth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AR-Earth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADF2F071FF33FD400FD54FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFP58H2H4K;
+				INFOPLIST_FILE = "AR Earth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AR-Earth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADF2EEC1FF33FD400FD54FB /* Build configuration list for PBXProject "AR Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADF2F031FF33FD400FD54FB /* Debug */,
+				FADF2F041FF33FD400FD54FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADF2F051FF33FD400FD54FB /* Build configuration list for PBXNativeTarget "AR Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADF2F061FF33FD400FD54FB /* Debug */,
+				FADF2F071FF33FD400FD54FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADF2EE91FF33FD400FD54FB /* Project object */;
+}
